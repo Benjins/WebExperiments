@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Equ</title>
+
+<style>
+
+.slid {
+	height: 20px;
+	background: #ddd;
+	-webkit-appearance: none;
+    width: 100%;
+}
+
+.slid::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 20px;
+    background: #385;
+	border-radius: 10%;
+}
+
+.slid::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #385;
+	border-radius: 10%;
+}
+
+#input_container {
+	width: 30%;
+}
+
+</style>
+
+<script src='js/equ.js'></script>
+
+</head>
+
+<body>
+<h2>Equationation</h2>
+
+<p>Input:</p>
+<div id='input_container'>
+	<span id='slidVal1'></span><input type="range" min="-20" max="20" value="2" class="slid" id="slid11"/>
+</div>
+
+<div id='equ_container'>
+	<p>TODO</p>
+	<textarea id='equ' rows="4" cols="50">{1}</textarea>
+</div>
+
+<div id='output_container'>
+	<p id='output1'>UND</p>
+</div>
+
+</body>
+
+</html>

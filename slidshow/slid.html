@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Slidshow</title>
+
+<style>
+
+#slid {
+	height: 400px;
+}
+
+.slidImg {
+	display:none;
+}
+
+.slidImg:target {
+	display:block;
+}
+
+</style>
+
+</head>
+<body>
+
+<h2>Slidshow</h2>
+<p>Yoooooo.</p>
+<p>it's this:</p>
+
+<div id='slid'>
+	<a href='#sImg1'>Begin slideshow</a>
+	<div class='slidImg' id='sImg1'>
+		<img width='240px' src='img/WE1.jpg'/>
+		<br/>
+		<a href='#sImg5'>Back</a>
+		<a href='#sImg2'>Next</a>
+	</div>
+	
+	<div class='slidImg' id='sImg2'>
+		<img width='240px' src='img/WE2.jpg'/>
+		<br/>
+		<a href='#sImg1'>Back</a>
+		<a href='#sImg3'>Next</a>
+	</div>
+	
+	<div class='slidImg' id='sImg3'>
+		<img width='240px' src='img/WE3.jpg'/>
+		<br/>
+		<a href='#sImg2'>Back</a>
+		<a href='#sImg4'>Next</a>
+	</div>
+	
+	<div class='slidImg' id='sImg4'>
+		<img width='240px' src='img/WE4.jpg'/>
+		<br/>
+		<a href='#sImg3'>Back</a>
+		<a href='#sImg5'>Next</a>
+	</div>
+	
+	<div class='slidImg' id='sImg5'>
+		<img width='240px' src='img/WE5.jpg'/>
+		<br/>
+		<a href='#sImg4'>Back</a>
+		<a href='#sImg1'>Next</a>
+	</div>
+</div>
+
+
+</body>
+</html>
